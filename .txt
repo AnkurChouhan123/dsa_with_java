@@ -1,0 +1,28 @@
+class{
+
+1> variables
+   - local variable   : define inside methods/constructor/block
+   - instance variable : define inside class outside methods/constructor/block
+   - static variable : inside class outside method/c/b with prefix 'static'
+
+   <-----------
+   int a = 100;
+
+
+static - stored in non - heap area - .class loaded
+local - stack  - when m/c/b call
+instance - heap - object creates
+
+
+2> Methods
+   - are used to write logics of a program
+   - two types - static and non-static(instance)
+   - methods always call explicitely
+
+   *Instance Method - directly -> Instance method/variable
+   *static Method - object -> Instance method/variable
+   *Instance Method - className -> static method/variable
+   *static Method - className -> static method/variable
+
+ Object -
+     creation type = named,anonymous, Instance factory method , Static factory method

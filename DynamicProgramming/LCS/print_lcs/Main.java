@@ -24,4 +24,10 @@ public class Main {
         }
     }
 
+    static void print(int[][]dp){
+        int m = dp.length;
+        int n = dp[0].length;
+        System.out.print(dp[m-1][n-1]);
+    }
+
 }
